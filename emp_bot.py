@@ -28,7 +28,7 @@ token = os.getenv('DISCORD_TOKEN')
 #                    password=redditPW)
 
 # Discord client
-client = commands.Bot(command_prefix='!')  # !COMMAND_NAME args
+client = commands.Bot(command_prefix='/')  # !COMMAND_NAME args
 
 
 @client.event
@@ -112,7 +112,7 @@ async def server_info(ctx):
 
 
 async def help(ctx):
-    await ctx.channel.send("You can use commands !user-info, !ping, !ban, !kick, and !server-info")
+    await ctx.channel.send("You can use commands /user-info, /ping, /ban, /kick, and /server-info")
 
 
 @client.command(pass_context=True)
