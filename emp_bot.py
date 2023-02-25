@@ -15,7 +15,7 @@ from textwrap import wrap
 
 
 load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
+token = os.getenv('1078997466050990090')
 # redditSecret = os.getenv('REDDIT_CLIENT_SECRET')
 # redditID = os.getenv('REDDIT_CLIENT_ID')
 # redditAgent = os.getenv('REDDIT_USER_AGENT')
